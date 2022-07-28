@@ -44,6 +44,10 @@ body {
   text-align: center;
 }
 
+.navbar a :hover {
+  text-decoration: underline;
+}
+
 #header {
   grid-area: head;
   text-align: center;
@@ -242,10 +246,16 @@ footer {
   font-weight: 400;
   font-size: 18px;
   color: #020202;
+  text-decoration: none;
+
 }
 .footerLinks {
   padding-top: 10px;
   padding-left: 10px;
+}
+.footerLinks :hover {
+  color: #FFFFFC;
+  text-decoration: underline;
 }
 .copyright {
   position: relative;
