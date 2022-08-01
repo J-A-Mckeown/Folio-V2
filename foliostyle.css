@@ -12,7 +12,7 @@ body {
 .topBar img {
   display: inline;
   height: 50px;
-  background-color: #E21219;
+  background-color: #6e0408;
   padding-left: 10px;
 
 }
@@ -21,7 +21,7 @@ body {
 }
 .navContainer {
   color: #FFFFFC;
-  background-color: #E21219;
+  background-color: #6e0408;
   height: 50px;
   margin-top: 2px;
   width: 100vw;
