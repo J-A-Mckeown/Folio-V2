@@ -98,9 +98,7 @@ h3 {
   grid-column: span 3 / 4;
 }
 
-.flexboxContainer {
-  z-index: 1;
-}
+
 .aboutText {
   color: #020202;
   font-family: 'open sans', sans-serif;
@@ -158,10 +156,11 @@ h3 {
 .flexboxContainer {
   display: inline-flex;
   flex-direction: row;
-  margin-bottom: 200px;
-  margin: 10px;
-  align-items: center;
-  justify-items: center;
+  z-index: 1;
+  width: 100vw;
+  
+  align-content: center;
+  justify-content: center;
 }
 .flexboxContainer > div {
   margin: 100px;
