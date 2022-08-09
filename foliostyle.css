@@ -1,5 +1,7 @@
 body {
   background-color: #FFFFFC;
+  margin: 0px;
+  padding: 0px;
 }
 .topBar {
   margin-top: -10px;
@@ -11,7 +13,7 @@ body {
 }
 .topBar img {
   display: inline;
-  height: 50px;
+  height: 42px;
   background-color: #E21219;
   padding-left: 10px;
 
@@ -90,6 +92,7 @@ h3 {
 .gridContainer {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  margin-left: 20px;
 }
 .h2container {
   grid-area: h2;
@@ -119,8 +122,9 @@ h3 {
   font-family: 'open sans', sans-serif;
   font-weight: 600;
   font-size: 22px;
-  line-height: 120%;
+  line-height: 300%;
   margin-top: 0px;
+  text-align: center;
 }
 
 .myWork {
@@ -154,11 +158,12 @@ h3 {
 }
 
 .flexboxContainer {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   z-index: 1;
   width: 100vw;
-  
+  margin: 0px;
+  padding: 0px;
   align-content: center;
   justify-content: center;
 }
@@ -244,13 +249,13 @@ footer {
   font-family: "roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: #020202;
+  color: #FFFFFC;
   text-decoration: none;
 
 }
 .footerLinks {
-  padding-top: 10px;
-  padding-left: 10px;
+  padding-top: 20px;
+  padding-left: 15px;
 }
 .footerLinks :hover {
   color: #FFFFFC;
@@ -258,6 +263,7 @@ footer {
 }
 .copyright {
   position: relative;
-  bottom: -40px;
+  bottom: -30px;
   text-align: center;
+  opacity: 50%;
 }
