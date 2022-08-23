@@ -1,18 +1,19 @@
 body {
   background-color: #FFFFFC;
+  margin: 0px;
+
 }
 .topBar {
   margin-top: -10px;
   margin-left: -10px;
-  width: 100vw;
   position: sticky;
   top: 0px;
   z-index: 2;
 }
 .topBar img {
   display: inline;
-  height: 50px;
-  background-color: #6e0408;
+  height: 42px;
+  background-color: #E21219;
   padding-left: 10px;
 
 }
@@ -21,7 +22,7 @@ body {
 }
 .navContainer {
   color: #FFFFFC;
-  background-color: #6e0408;
+  background-color: #E21219;
   height: 50px;
   margin-top: 2px;
   width: 100vw;
@@ -74,22 +75,22 @@ h1 {
 h2 {
   font-family: "Roboto", sans-serif;
   color: #58B09C;
-  font-size: 34px;
-  margin-top: -2px;
+  font-size: 42px;
   margin-bottom: 10px;
-  line-height: 30px; 
+  line-height: 31px; 
 }
 h3 {
   font-family: 'roboto', sans-serif;
   font-weight: 900;
   color: #58B09C;
-  font-size: 30px;
+  font-size: 36px;
   line-height: 75%;
   letter-spacing: -2px;
 }
 .gridContainer {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  margin-left: 30px;
 }
 .h2container {
   grid-area: h2;
@@ -98,9 +99,19 @@ h3 {
   grid-column: span 3 / 4;
 }
 
-.flexboxContainer {
-  z-index: 1;
+.myWorks {
+  text-align: center;
 }
+.workText {
+  color: #020202;
+  font-family: 'open sans', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 120%;
+  margin-top: 0px;
+  margin-left: 30PX;
+}
+
 .aboutText {
   color: #020202;
   font-family: 'open sans', sans-serif;
@@ -121,7 +132,8 @@ h3 {
   font-family: 'open sans', sans-serif;
   font-weight: 600;
   font-size: 22px;
-  line-height: 120%;
+  line-height: 300%;
+  letter-spacing: 20px;
   margin-top: 0px;
 }
 
@@ -158,10 +170,10 @@ h3 {
 .flexboxContainer {
   display: inline-flex;
   flex-direction: row;
-  margin-bottom: 200px;
-  margin: 10px;
-  align-items: center;
-  justify-items: center;
+  z-index: 1;
+  width: 100vw; 
+  align-content: center;
+  justify-content: center;
 }
 .flexboxContainer > div {
   margin: 100px;
@@ -192,25 +204,59 @@ h3 {
   letter-spacing: -2px;
 }
 
+.work {
+  width: 90%;
+}
+
+.images {
+  align-self: center;
+}
+
+.workImageLinks {
+  text-decoration: none;
+}
+
 .AWLQImage {
   background-image: url(AWLQHome.png);
   background-size: cover;
   height: 400px;
 }
+.AWLQImage2 {
+  background-image: url(AWLQHome.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 300px;
+}
+
 .LHImage {
   background-image: url(LH\ proto\ snip.png);
   background-size: cover;
   height: 400px;
 }
+.LHImage2 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 300px;
+}
+
 .bnbImage {
   background-image: url(bnb_square.png);
   background-size: cover;
-  height: 400PX;
+  height: 400px;
 }
+.bnbImage2 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+}
+
 button {
   background-color: #E21219;
   color: #FFFFFC;
-  width: 70%;
+  width: 200px;
   height: 60px;
   text-align: center;
   font-family: "roboto", sans-serif;
@@ -238,16 +284,15 @@ footer {
   font-weight: 400;
   font-size: 18px;
   color: #FFFFFC;
- margin-top: 20px;
- display: block;
+  margin-top: 80px;
+  display: block;
 }
 .footerLinks a{
   font-family: "roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: #020202;
+  color: #FFFFFC;
   text-decoration: none;
-
 }
 .footerLinks {
   padding-top: 10px;
