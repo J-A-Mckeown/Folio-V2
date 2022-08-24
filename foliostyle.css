@@ -1,12 +1,12 @@
+
 body {
   background-color: #FFFFFC;
-  margin: 0px;
-  padding: 0px;
+  margin:0px 0px 0px 0px;
+
 }
 .topBar {
   margin-top: -10px;
   margin-left: -10px;
-  width: 100vw;
   position: sticky;
   top: 0px;
   z-index: 2;
@@ -21,6 +21,9 @@ body {
 .logo {
   grid-area: logo;
 }
+
+
+
 .navContainer {
   color: #FFFFFC;
   background-color: #E21219;
@@ -76,23 +79,29 @@ h1 {
 h2 {
   font-family: "Roboto", sans-serif;
   color: #58B09C;
-  font-size: 34px;
-  margin-top: -2px;
+  font-size: 42px;
   margin-bottom: 10px;
-  line-height: 30px; 
+  line-height: 31px; 
 }
 h3 {
   font-family: 'roboto', sans-serif;
   font-weight: 900;
   color: #58B09C;
-  font-size: 30px;
+  font-size: 36px;
   line-height: 75%;
   letter-spacing: -2px;
 }
+
+.images{
+  display: flex;
+  justify-content: center;
+ 
+}
+
 .gridContainer {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  margin-left: 20px;
+  margin-left: 30px;
 }
 .h2container {
   grid-area: h2;
@@ -101,6 +110,18 @@ h3 {
   grid-column: span 3 / 4;
 }
 
+.myWorks {
+  text-align: center;
+}
+.workText {
+  color: #020202;
+  font-family: 'open sans', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 120%;
+  margin-top: 0px;
+  text-align: center;
+}
 
 .aboutText {
   color: #020202;
@@ -123,8 +144,8 @@ h3 {
   font-weight: 600;
   font-size: 22px;
   line-height: 300%;
+  letter-spacing: 20px;
   margin-top: 0px;
-  text-align: center;
 }
 
 .myWork {
@@ -158,12 +179,10 @@ h3 {
 }
 
 .flexboxContainer {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   z-index: 1;
-  width: 100vw;
-  margin: 0px;
-  padding: 0px;
+  width: 100vw; 
   align-content: center;
   justify-content: center;
 }
@@ -196,25 +215,60 @@ h3 {
   letter-spacing: -2px;
 }
 
+.work {
+  width: 100%;
+  margin: 0px;
+}
+
+
+.workImageLinks {
+  text-decoration: none;
+}
+
 .AWLQImage {
   background-image: url(AWLQHome.png);
   background-size: cover;
   height: 400px;
 }
+.AWLQImage2 {
+  background-image: url(AWLQHome.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 300px;
+  margin: 20px;
+}
+
 .LHImage {
   background-image: url(LH\ proto\ snip.png);
   background-size: cover;
   height: 400px;
 }
+.LHImage2 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 300px;
+  margin: 20px;
+}
+
 .bnbImage {
   background-image: url(bnb_square.png);
   background-size: cover;
-  height: 400PX;
+  height: 400px;
 }
+.bnbImage2 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+
 button {
   background-color: #E21219;
   color: #FFFFFC;
-  width: 70%;
+  width: 200px;
   height: 60px;
   text-align: center;
   font-family: "roboto", sans-serif;
@@ -235,15 +289,15 @@ button:hover {
   
 }
 footer {
-  width: 100vw;
+  width: 100%;
   height: 160px;
   background-color: #545454;
   font-family: "roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #FFFFFC;
- margin-top: 20px;
- display: block;
+  margin-top: 80px;
+  display: block;
 }
 .footerLinks a{
   font-family: "roboto", sans-serif;
@@ -251,11 +305,10 @@ footer {
   font-size: 18px;
   color: #FFFFFC;
   text-decoration: none;
-
 }
 .footerLinks {
-  padding-top: 20px;
-  padding-left: 15px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 .footerLinks :hover {
   color: #FFFFFC;
@@ -263,7 +316,6 @@ footer {
 }
 .copyright {
   position: relative;
-  bottom: -30px;
+  bottom: -40px;
   text-align: center;
-  opacity: 50%;
 }
