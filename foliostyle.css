@@ -22,7 +22,9 @@ body {
   grid-area: logo;
 }
 
-
+.logoAWLQ {
+ height: 50px; 
+}
 
 .navContainer {
   color: #FFFFFC;
