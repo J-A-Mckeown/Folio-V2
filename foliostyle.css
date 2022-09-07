@@ -321,3 +321,9 @@ footer {
   bottom: -40px;
   text-align: center;
 }
+
+/* PROJECT CSS */
+
+.projectText {
+  padding-left: 20px;
+}
