@@ -9,11 +9,12 @@ body {
   margin-left: -10px;
   position: sticky;
   top: 0px;
-  z-index: 2;
+  z-index: 999;
 }
 .topBar img {
   display: inline;
-  height: 42px;
+  height: 50px;
+  margin-top: 2px;
   background-color: #E21219;
   padding-left: 10px;
 
@@ -183,7 +184,7 @@ h3 {
 .flexboxContainer {
   display: inline-flex;
   flex-direction: row;
-  z-index: 1;
+  z-index: -999;
   width: 100vw; 
   align-content: center;
   justify-content: center;
@@ -326,4 +327,10 @@ footer {
 
 .projectText {
   padding-left: 20px;
+}
+
+
+.beforeGif {
+  padding-left: 570px;
+  padding-top: 20px;
 }
