@@ -9,7 +9,7 @@ body {
   margin-left: -10px;
   position: sticky;
   top: 0px;
-  z-index: 999;
+  z-index: 11;
 }
 .topBar img {
   display: inline;
@@ -32,9 +32,12 @@ body {
   background-color: #E21219;
   height: 50px;
   margin-top: 2px;
-  width: 100vw;
+  width: 100%;
   position: fixed;
+  position: -webkit-sticky;
+  top: 0px;
   display: inline;
+  z-index: 11;
 }
 .navbar{
   margin-right: 100px;
@@ -330,7 +333,59 @@ footer {
 }
 
 
+
 .beforeGif {
-  padding-left: 570px;
-  padding-top: 20px;
+  background-image: url(./img/oldSite.gif);
+  background-size: contain;
+  height: 300px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
+
+.catLady {
+  background-image: url(./img/AWLQPersona.png);
+  background-size: contain;
+  height: 300px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.statements {
+  background-image: url(./img/AWLQStatements.gif);
+  background-size: contain;
+  height: 300px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.userFlow {
+  background-image: url(./img/userflow.gif);
+  background-size: contain;
+  height: 300px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.moodBoard {
+  background-image: url(./img/AWLQMood.gif);
+  background-size: contain;
+  height: 300px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.styleGuide {
+  background-image: url(./img/AWLQStyle.gif);
+  background-size: contain;
+  height: 300px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
