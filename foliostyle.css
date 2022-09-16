@@ -5,7 +5,7 @@ body {
 
 }
 .topBar {
-  margin-top: -10px;
+  margin-top: 0px;
   margin-left: -10px;
   position: sticky;
   top: 0px;
@@ -14,7 +14,7 @@ body {
 .topBar img {
   display: inline;
   height: 50px;
-  margin-top: 2px;
+  margin-top: px;
   background-color: #E21219;
   padding-left: 10px;
 
@@ -31,7 +31,7 @@ body {
   color: #FFFFFC;
   background-color: #E21219;
   height: 50px;
-  margin-top: 2px;
+  margin-top: 0px;
   width: 100%;
   position: fixed;
   position: -webkit-sticky;
@@ -136,6 +136,7 @@ h3 {
   font-size: 22px;
   line-height: 120%;
   margin-top: 0px;
+  padding-right: 15px;
 }
 .tool1 {
   grid-column: span 3/ 11;
@@ -389,3 +390,29 @@ footer {
   background-position: center;
 }
 
+.lowFi {
+  background-image: url(./img/AWLQLoFi.gif);
+  background-size: contain;
+  height: 300px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hiFi {
+  background-image: url(./img/AWLQHiFi.gif);
+  background-size: contain;
+  height: 300px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.postTest {
+  background-image: url(./img/AWLQPostTest.png);
+  background-size: contain;
+  height: 300px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
