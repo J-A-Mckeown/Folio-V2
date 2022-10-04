@@ -96,6 +96,7 @@ h3 {
   font-size: 36px;
   line-height: 75%;
   letter-spacing: -2px;
+  padding-left: 20%;
 }
 
 .images{
@@ -136,7 +137,8 @@ h3 {
   font-size: 22px;
   line-height: 120%;
   margin-top: 0px;
-  padding-right: 15px;
+  padding-right: 20%;
+  padding-left: 20%;
 }
 .tool1 {
   grid-column: span 3/ 11;
@@ -314,7 +316,7 @@ footer {
   text-decoration: none;
 }
 .footerLinks {
-  padding-top: 10px;
+  padding-top: 30px;
   padding-left: 10px;
 }
 .footerLinks :hover {
@@ -323,7 +325,7 @@ footer {
 }
 .copyright {
   position: relative;
-  bottom: -40px;
+  bottom: -20px;
   text-align: center;
 }
 
@@ -412,6 +414,96 @@ footer {
   background-image: url(./img/AWLQPostTest.png);
   background-size: contain;
   height: 300px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.LHIntro {
+  background-image: url(./img/LHMock.png);
+  background-size: contain;
+  height: 500px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.LHAffinity {
+  background-image: url(./img/LHAffinity.gif);
+  background-size: contain;
+  height: 600px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.LHPersona {
+  background-image: url(./img/LHPersona.png);
+  background-size: contain;
+  height: 600px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;   
+}
+
+.LHProblems {
+  background-image: url(./img/LHproblems.gif);
+  background-size: contain;
+  height: 300px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;   
+}
+
+.LHComp {
+  background-image: url(./img/LHComp.gif);
+  background-size: contain;
+  height: 600px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;   
+}
+
+.LHFeature {
+  background-image: url(./img/LHFeature.PNG);
+  background-size: contain;
+  height: 600px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;   
+}
+
+.LHScenario {
+  background-image: url(./img/LHScenario.png);
+  background-size: contain;
+  height: 600px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.LHFlow {
+  background-image: url(./img/LHFlow.gif);
+  background-size: contain;
+  height: 400px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.LHPaper {
+  background-image: url(./img/LHLofi.gif);
+  background-size: contain;
+  height: 400px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.LHHifi {
+  background-image: url(./img/LHHifi.gif);
+  background-size: contain;
+  height: 800px;
   width: auto;
   background-repeat: no-repeat;
   background-position: center;
